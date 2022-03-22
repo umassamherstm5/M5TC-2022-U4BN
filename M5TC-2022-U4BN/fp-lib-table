@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name SparkFun-Electromechanical)(type KiCad)(uri ${KIPRJMOD}/Libraries/SparkFun-Electromechanical.pretty)(options "")(descr "SparkFun electromechanical parts"))
-  (lib (name Module_Feather)(type KiCad)(uri ${KIPRJMOD}/Libraries/Module_Feather.pretty)(options "")(descr ""))
-)

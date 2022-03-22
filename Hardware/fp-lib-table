@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name SparkFun-Electromechanical)(type KiCad)(uri ${KIPRJMOD}/Libraries/SparkFun-Electromechanical.pretty)(options "")(descr "SparkFun electromechanical parts"))
+  (lib (name Module_Feather)(type KiCad)(uri ${KIPRJMOD}/Libraries/Module_Feather.pretty)(options "")(descr "Footprints for Feather boards"))
+  (lib (name 4PDT_Footprint)(type KiCad)(uri ${KIPRJMOD}/Libraries/4PDT_Footprint.pretty)(options "")(descr "4PDT THT Footprint "))
+  (lib (name Rotary_Hex_SOIC)(type KiCad)(uri ${KIPRJMOD}/Libraries/Rotary_Hex_SOIC.pretty)(options "")(descr "Custom SOIC-6 Footprint "))
+  (lib (name Figures)(type KiCad)(uri ${KIPRJMOD}/Libraries/Figures.pretty)(options "")(descr "Logos "))
+)

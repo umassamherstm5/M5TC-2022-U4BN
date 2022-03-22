@@ -1,4 +1,11 @@
-19488518584683649
+19496942706996373
+4PDT_Footprint
+E-Switch-EG4208A-0-0-MFG
+
+
+0
+14
+14
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50777,6 +50784,27 @@ fiducial
 0
 1
 0
+Figures
+Instagram_logo
+
+
+0
+0
+0
+Figures
+M5_logo
+
+
+0
+0
+0
+Figures
+beeg_yoshi
+
+
+0
+0
+0
 Filter
 Filter_1109-5_1.1x0.9mm
 5-pin SAW filter package - 1.1x0.9 mm Body; (see https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en-gb)
@@ -76537,6 +76565,13 @@ rotary encoder
 0
 5
 4
+Rotary_Hex_SOIC
+Rotary_Hex_6_SOIC
+
+
+0
+6
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 4PDT)(type Legacy)(uri ${KIPRJMOD}/Libraries/4PDT/4PDT.lib)(options "")(descr ""))
+  (lib (name MCU_Module_Feather)(type Legacy)(uri ${KIPRJMOD}/Libraries/MCU_Module_Feather/MCU_Module_Feather.lib)(options "")(descr ""))
+  (lib (name SparkFun-Electromechanical)(type Legacy)(uri ${KIPRJMOD}/Libraries/SparkFun-Electromechanical/SparkFun-Electromechanical.lib)(options "")(descr ""))
+)
