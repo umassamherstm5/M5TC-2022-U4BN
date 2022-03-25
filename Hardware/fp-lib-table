@@ -4,4 +4,5 @@
   (lib (name 4PDT_Footprint)(type KiCad)(uri ${KIPRJMOD}/Libraries/4PDT_Footprint.pretty)(options "")(descr "4PDT THT Footprint "))
   (lib (name Rotary_Hex_SOIC)(type KiCad)(uri ${KIPRJMOD}/Libraries/Rotary_Hex_SOIC.pretty)(options "")(descr "Custom SOIC-6 Footprint "))
   (lib (name Figures)(type KiCad)(uri ${KIPRJMOD}/Libraries/Figures.pretty)(options "")(descr "Logos "))
+  (lib (name Custom_TestPoint)(type KiCad)(uri ${KIPRJMOD}/Libraries/Custom_TestPoint.pretty)(options "")(descr ""))
 )

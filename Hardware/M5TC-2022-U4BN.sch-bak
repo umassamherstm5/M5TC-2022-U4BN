@@ -427,14 +427,14 @@ Wire Notes Line
 Wire Notes Line
 	4300 4500 7800 4500
 Text Notes 4350 4750 0    75   ~ 0
-Testpoints + Mounting Holes\n\n
+Testpoints\n\n
 $Comp
-L Connector_Generic:Conn_01x01 J1
+L Connector_Generic:Conn_01x01 TP1
 U 1 1 6232AE3E
 P 5000 5250
-F 0 "J1" V 4872 5330 50  0000 L CNN
+F 0 "TP1" V 4872 5330 50  0000 L CNN
 F 1 "VCC" V 4963 5330 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm" H 5000 5250 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5000 5250 50  0001 C CNN
 F 3 "~" H 5000 5250 50  0001 C CNN
 	1    5000 5250
 	0    1    1    0   
@@ -462,45 +462,45 @@ F 3 "" H 5500 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J2
+L Connector_Generic:Conn_01x01 TP2
 U 1 1 6232C0D6
 P 5500 4900
-F 0 "J2" V 5372 4980 50  0000 L CNN
+F 0 "TP2" V 5372 4980 50  0000 L CNN
 F 1 "GND" V 5463 4980 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm" H 5500 4900 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 4900 50  0001 C CNN
 F 3 "~" H 5500 4900 50  0001 C CNN
 	1    5500 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J7
+L Connector_Generic:Conn_01x01 TP14
 U 1 1 62338610
 P 6950 4850
-F 0 "J7" H 7030 4846 50  0000 L CNN
+F 0 "TP14" H 7030 4846 50  0000 L CNN
 F 1 "K1" H 7030 4801 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6950 4850 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 6950 4850 50  0001 C CNN
 F 3 "~" H 6950 4850 50  0001 C CNN
 	1    6950 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J8
+L Connector_Generic:Conn_01x01 TP15
 U 1 1 6233D5E3
 P 6950 5000
-F 0 "J8" H 7030 4996 50  0000 L CNN
+F 0 "TP15" H 7030 4996 50  0000 L CNN
 F 1 "K2" H 7030 4951 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6950 5000 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 6950 5000 50  0001 C CNN
 F 3 "~" H 6950 5000 50  0001 C CNN
 	1    6950 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J9
+L Connector_Generic:Conn_01x01 TP16
 U 1 1 6233DB6B
 P 6950 5150
-F 0 "J9" H 7030 5146 50  0000 L CNN
+F 0 "TP16" H 7030 5146 50  0000 L CNN
 F 1 "K3" H 7030 5101 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6950 5150 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 6950 5150 50  0001 C CNN
 F 3 "~" H 6950 5150 50  0001 C CNN
 	1    6950 5150
 	1    0    0    -1  
@@ -512,45 +512,23 @@ K2
 Text GLabel 6750 5150 0    50   Input ~ 0
 K3
 $Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 623464AE
-P 5500 5600
-F 0 "J3" H 5580 5596 50  0000 L CNN
-F 1 "DATA_0" H 5580 5551 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5500 5600 50  0001 C CNN
-F 3 "~" H 5500 5600 50  0001 C CNN
-	1    5500 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 62346C76
-P 5500 5750
-F 0 "J4" H 5580 5746 50  0000 L CNN
-F 1 "DATA_1" H 5580 5701 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5500 5750 50  0001 C CNN
-F 3 "~" H 5500 5750 50  0001 C CNN
-	1    5500 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
+L Connector_Generic:Conn_01x01 TP5
 U 1 1 62347F17
 P 5500 5900
-F 0 "J5" H 5580 5896 50  0000 L CNN
+F 0 "TP5" H 5580 5896 50  0000 L CNN
 F 1 "DATA_2" H 5580 5851 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5500 5900 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 5900 50  0001 C CNN
 F 3 "~" H 5500 5900 50  0001 C CNN
 	1    5500 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
+L Connector_Generic:Conn_01x01 TP6
 U 1 1 6234886E
 P 5500 6050
-F 0 "J6" H 5580 6046 50  0000 L CNN
+F 0 "TP6" H 5580 6046 50  0000 L CNN
 F 1 "DATA_3" H 5580 6001 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 5500 6050 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 6050 50  0001 C CNN
 F 3 "~" H 5500 6050 50  0001 C CNN
 	1    5500 6050
 	1    0    0    -1  
@@ -564,45 +542,45 @@ DATA_2
 Text GLabel 5300 6050 0    50   Input ~ 0
 DATA_3
 $Comp
-L Connector_Generic:Conn_01x01 J10
+L Connector_Generic:Conn_01x01 TP17
 U 1 1 6234DBAF
 P 6950 5600
-F 0 "J10" H 7030 5596 50  0000 L CNN
+F 0 "TP17" H 7030 5596 50  0000 L CNN
 F 1 "SLIDE_DATA_0" H 7030 5551 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6950 5600 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 6950 5600 50  0001 C CNN
 F 3 "~" H 6950 5600 50  0001 C CNN
 	1    6950 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J11
+L Connector_Generic:Conn_01x01 TP18
 U 1 1 6234DBB5
 P 6950 5750
-F 0 "J11" H 7030 5746 50  0000 L CNN
+F 0 "TP18" H 7030 5746 50  0000 L CNN
 F 1 "SLIDE_DATA_1" H 7030 5701 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6950 5750 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 6950 5750 50  0001 C CNN
 F 3 "~" H 6950 5750 50  0001 C CNN
 	1    6950 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J12
+L Connector_Generic:Conn_01x01 TP19
 U 1 1 6234DBBB
 P 6950 5900
-F 0 "J12" H 7030 5896 50  0000 L CNN
+F 0 "TP19" H 7030 5896 50  0000 L CNN
 F 1 "SLIDE_DATA_2" H 7030 5851 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6950 5900 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 6950 5900 50  0001 C CNN
 F 3 "~" H 6950 5900 50  0001 C CNN
 	1    6950 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J13
+L Connector_Generic:Conn_01x01 TP20
 U 1 1 6234DBC1
 P 6950 6050
-F 0 "J13" H 7030 6046 50  0000 L CNN
+F 0 "TP20" H 7030 6046 50  0000 L CNN
 F 1 "SLIDE_DATA_3" H 7030 6001 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 6950 6050 50  0001 C CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 6950 6050 50  0001 C CNN
 F 3 "~" H 6950 6050 50  0001 C CNN
 	1    6950 6050
 	1    0    0    -1  
@@ -813,50 +791,6 @@ Connection ~ 9850 2100
 Wire Wire Line
 	10200 2200 10600 2200
 Connection ~ 10200 2200
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 6223EFF4
-P 5300 6500
-F 0 "H3" H 5400 6546 50  0000 L CNN
-F 1 "M" H 5400 6455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 5300 6500 50  0001 C CNN
-F 3 "~" H 5300 6500 50  0001 C CNN
-	1    5300 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 6223FF61
-P 5000 6500
-F 0 "H1" H 5100 6546 50  0000 L CNN
-F 1 "M" H 5100 6455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 5000 6500 50  0001 C CNN
-F 3 "~" H 5000 6500 50  0001 C CNN
-	1    5000 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 62240646
-P 5000 7000
-F 0 "H2" H 5100 7046 50  0000 L CNN
-F 1 "M" H 5100 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 5000 7000 50  0001 C CNN
-F 3 "~" H 5000 7000 50  0001 C CNN
-	1    5000 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 62240B94
-P 5300 7000
-F 0 "H4" H 5400 7046 50  0000 L CNN
-F 1 "M" H 5400 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 5300 7000 50  0001 C CNN
-F 3 "~" H 5300 7000 50  0001 C CNN
-	1    5300 7000
-	1    0    0    -1  
-$EndComp
 $Comp
 L 4PDT:EG4208A SW6
 U 1 1 62202B40
@@ -1190,12 +1124,12 @@ G
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J14
 U 1 1 62294ACD
-P 9450 5050
-F 0 "J14" H 9500 5367 50  0000 C CNN
-F 1 "ISP" H 9500 5276 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9450 5050 50  0001 C CNN
-F 3 "~" H 9450 5050 50  0001 C CNN
-	1    9450 5050
+P 9850 5050
+F 0 "J14" H 9900 5367 50  0000 C CNN
+F 1 "ISP" H 9900 5276 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9850 5050 50  0001 C CNN
+F 3 "~" H 9850 5050 50  0001 C CNN
+	1    9850 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1292,41 +1226,41 @@ G
 $Comp
 L power:VCC #PWR018
 U 1 1 622AC9CA
-P 9900 4950
-F 0 "#PWR018" H 9900 4800 50  0001 C CNN
-F 1 "VCC" H 9915 5123 50  0000 C CNN
-F 2 "" H 9900 4950 50  0001 C CNN
-F 3 "" H 9900 4950 50  0001 C CNN
-	1    9900 4950
+P 10300 4950
+F 0 "#PWR018" H 10300 4800 50  0001 C CNN
+F 1 "VCC" H 10315 5123 50  0000 C CNN
+F 2 "" H 10300 4950 50  0001 C CNN
+F 3 "" H 10300 4950 50  0001 C CNN
+	1    10300 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 4950 9750 4950
-Text GLabel 9750 5050 2    50   Input ~ 0
+	10300 4950 10150 4950
+Text GLabel 10150 5050 2    50   Input ~ 0
 MOSI
 $Comp
 L power:GND #PWR019
 U 1 1 622B4B99
-P 9900 5150
-F 0 "#PWR019" H 9900 4900 50  0001 C CNN
-F 1 "GND" H 9905 4977 50  0000 C CNN
-F 2 "" H 9900 5150 50  0001 C CNN
-F 3 "" H 9900 5150 50  0001 C CNN
-	1    9900 5150
+P 10300 5150
+F 0 "#PWR019" H 10300 4900 50  0001 C CNN
+F 1 "GND" H 10305 4977 50  0000 C CNN
+F 2 "" H 10300 5150 50  0001 C CNN
+F 3 "" H 10300 5150 50  0001 C CNN
+	1    10300 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 5150 9900 5150
-Text GLabel 9250 4950 0    50   Input ~ 0
+	10150 5150 10300 5150
+Text GLabel 9650 4950 0    50   Input ~ 0
 MISO
-Text GLabel 9250 5050 0    50   Input ~ 0
+Text GLabel 9650 5050 0    50   Input ~ 0
 SCK
-Text GLabel 9250 5150 0    50   Input ~ 0
+Text GLabel 9650 5150 0    50   Input ~ 0
 RST
 Text Notes 4350 650  0    75   ~ 0
 Seven-Segment Displays
 Text Notes 7850 4100 0    75   ~ 0
-ISP Header 
+ISP Header + Mounting Holes
 $Comp
 L power:VCC #PWR020
 U 1 1 6221A544
@@ -1350,31 +1284,215 @@ Wire Notes Line
 	6950 6500 6950 7750
 Wire Notes Line
 	11200 6500 6950 6500
-Wire Notes Line
-	500  7750 6950 7750
-$Comp
-L Connector_Generic:Conn_01x07 J15
-U 1 1 6228302F
-P 6500 6850
-F 0 "J15" H 6580 6892 50  0000 L CNN
-F 1 "A-G" H 6580 6801 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 6500 6850 50  0001 C CNN
-F 3 "~" H 6500 6850 50  0001 C CNN
-	1    6500 6850
-	1    0    0    -1  
-$EndComp
-Text GLabel 6300 6550 0    50   Input ~ 0
+Text GLabel 6300 6500 0    50   Input ~ 0
 A
 Text GLabel 6300 6650 0    50   Input ~ 0
 B
-Text GLabel 6300 6750 0    50   Input ~ 0
+Text GLabel 6300 6800 0    50   Input ~ 0
 C
-Text GLabel 6300 6850 0    50   Input ~ 0
-D
 Text GLabel 6300 6950 0    50   Input ~ 0
+D
+Text GLabel 6300 7100 0    50   Input ~ 0
 E
-Text GLabel 6300 7050 0    50   Input ~ 0
+Text GLabel 6300 7250 0    50   Input ~ 0
 F
-Text GLabel 6300 7150 0    50   Input ~ 0
+Text GLabel 6300 7400 0    50   Input ~ 0
 G
+$Comp
+L Connector_Generic:Conn_01x01 TP7
+U 1 1 623D5EC9
+P 6500 6500
+F 0 "TP7" H 6580 6496 50  0000 L CNN
+F 1 "Conn_01x01" H 6580 6451 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPost" H 6500 6500 50  0001 C CNN
+F 3 "~" H 6500 6500 50  0001 C CNN
+	1    6500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP8
+U 1 1 623D7D19
+P 6500 6650
+F 0 "TP8" H 6580 6646 50  0000 L CNN
+F 1 "Conn_01x01" H 6580 6601 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPost" H 6500 6650 50  0001 C CNN
+F 3 "~" H 6500 6650 50  0001 C CNN
+	1    6500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP9
+U 1 1 623D8BCF
+P 6500 6800
+F 0 "TP9" H 6580 6796 50  0000 L CNN
+F 1 "Conn_01x01" H 6580 6751 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPost" H 6500 6800 50  0001 C CNN
+F 3 "~" H 6500 6800 50  0001 C CNN
+	1    6500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP10
+U 1 1 623D9ACE
+P 6500 6950
+F 0 "TP10" H 6580 6946 50  0000 L CNN
+F 1 "Conn_01x01" H 6580 6901 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPost" H 6500 6950 50  0001 C CNN
+F 3 "~" H 6500 6950 50  0001 C CNN
+	1    6500 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP11
+U 1 1 623DA95E
+P 6500 7100
+F 0 "TP11" H 6580 7096 50  0000 L CNN
+F 1 "Conn_01x01" H 6580 7051 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPost" H 6500 7100 50  0001 C CNN
+F 3 "~" H 6500 7100 50  0001 C CNN
+	1    6500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP12
+U 1 1 623DB9CB
+P 6500 7250
+F 0 "TP12" H 6580 7246 50  0000 L CNN
+F 1 "Conn_01x01" H 6580 7201 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPost" H 6500 7250 50  0001 C CNN
+F 3 "~" H 6500 7250 50  0001 C CNN
+	1    6500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP13
+U 1 1 623DC9D1
+P 6500 7400
+F 0 "TP13" H 6580 7396 50  0000 L CNN
+F 1 "Conn_01x01" H 6580 7351 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPost" H 6500 7400 50  0001 C CNN
+F 3 "~" H 6500 7400 50  0001 C CNN
+	1    6500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP4
+U 1 1 62346C76
+P 5500 5750
+F 0 "TP4" H 5580 5746 50  0000 L CNN
+F 1 "DATA_1" H 5580 5701 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 5750 50  0001 C CNN
+F 3 "~" H 5500 5750 50  0001 C CNN
+	1    5500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP3
+U 1 1 623464AE
+P 5500 5600
+F 0 "TP3" H 5580 5596 50  0000 L CNN
+F 1 "DATA_0" H 5580 5551 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 5600 50  0001 C CNN
+F 3 "~" H 5500 5600 50  0001 C CNN
+	1    5500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP23
+U 1 1 623D389C
+P 5500 6800
+F 0 "TP23" H 5580 6796 50  0000 L CNN
+F 1 "ROT_DATA_2" H 5580 6751 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 6800 50  0001 C CNN
+F 3 "~" H 5500 6800 50  0001 C CNN
+	1    5500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP24
+U 1 1 623D38A2
+P 5500 6950
+F 0 "TP24" H 5580 6946 50  0000 L CNN
+F 1 "ROT_DATA_3" H 5580 6901 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 6950 50  0001 C CNN
+F 3 "~" H 5500 6950 50  0001 C CNN
+	1    5500 6950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 6500 0    50   Input ~ 0
+ROT_DATA_0
+Text GLabel 5300 6650 0    50   Input ~ 0
+ROT_DATA_1
+Text GLabel 5300 6800 0    50   Input ~ 0
+ROT_DATA_2
+Text GLabel 5300 6950 0    50   Input ~ 0
+ROT_DATA_3
+$Comp
+L Connector_Generic:Conn_01x01 TP22
+U 1 1 623D38AC
+P 5500 6650
+F 0 "TP22" H 5580 6646 50  0000 L CNN
+F 1 "ROT_DATA_1" H 5580 6601 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 6650 50  0001 C CNN
+F 3 "~" H 5500 6650 50  0001 C CNN
+	1    5500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 TP21
+U 1 1 623D38B2
+P 5500 6500
+F 0 "TP21" H 5580 6496 50  0000 L CNN
+F 1 "ROT_DATA_0" H 5580 6451 50  0001 L CNN
+F 2 "Custom_TestPoint:TestPoint_LoopPostPad" H 5500 6500 50  0001 C CNN
+F 3 "~" H 5500 6500 50  0001 C CNN
+	1    5500 6500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	500  7750 6950 7750
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 62240B94
+P 8650 5300
+F 0 "H4" H 8750 5346 50  0000 L CNN
+F 1 "M" H 8750 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 8650 5300 50  0001 C CNN
+F 3 "~" H 8650 5300 50  0001 C CNN
+	1    8650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62240646
+P 8350 5300
+F 0 "H2" H 8450 5346 50  0000 L CNN
+F 1 "M" H 8450 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 8350 5300 50  0001 C CNN
+F 3 "~" H 8350 5300 50  0001 C CNN
+	1    8350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6223FF61
+P 8350 4800
+F 0 "H1" H 8450 4846 50  0000 L CNN
+F 1 "M" H 8450 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 8350 4800 50  0001 C CNN
+F 3 "~" H 8350 4800 50  0001 C CNN
+	1    8350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6223EFF4
+P 8650 4800
+F 0 "H3" H 8750 4846 50  0000 L CNN
+F 1 "M" H 8750 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_Pad_Via" H 8650 4800 50  0001 C CNN
+F 3 "~" H 8650 4800 50  0001 C CNN
+	1    8650 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
